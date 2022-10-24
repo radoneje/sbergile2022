@@ -625,9 +625,7 @@ h2 {
     bottom: 0;
     right: 0;
     background-color: black;
-    background-image: url(mobilemenubg.png);
-    background-size: cover;
-    background-repeat: no-repeat;
+
 }
 .playerTitle span{
     display: block;
@@ -996,6 +994,9 @@ h2 {
         align-items: center;
         justify-content: center;
         position: relative;
+        background-image: url(mobilemenubg.png);
+        background-size: cover;
+        background-repeat: no-repeat;
     }
     .mobileMenuWr .mainMenuItems{
         display: block;
