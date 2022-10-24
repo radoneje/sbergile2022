@@ -7,7 +7,15 @@ html(lang="ru")
     <link rel="shortcut icon" href="/favicon.ico" type="image/x-icon">
     <link rel="icon" href="/favicon.ico" type="image/x-icon">
     <meta name="robots" content="noindex">
+    script.
+      try {
+        eval("let a=()=>{;;};")
+      } catch (e) {
+        console.log(e)
+        document.location.href = "badbrowser.html"
+      }
     block head
     link(rel='stylesheet', href='assets/style.css')
+
   body
     block content
