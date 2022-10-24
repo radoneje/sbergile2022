@@ -1,0 +1,28 @@
+.mainMenu
+    .mainMenuTower
+        .mainMenuLogo(onclick="document.location.href='https://sber.ru'")
+            include ../svg/sberLogo.svg
+        .mainMenuItems.desktop
+            include mainMenuItems
+        .mainMenuHamburger.mobile(onclick="showMobileMenu()")
+            <svg width="32" height="32" viewBox="0 0 32 32" fill="none" xmlns="http://www.w3.org/2000/svg">
+            <path d="M4 8H28M4 16H28M4 24H28" stroke="white" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+            </svg>
+.mobileMenu
+    .mainMenu
+        .mainMenuTower
+            .mainMenuLogo(onclick="document.location.href='https://sber.ru'")
+                include ../svg/sberLogo.svg
+            .mainMenuItems(onclick="mainMenuClose()" style="padding-bottom: 7px;")
+                <svg width="32" height="32" viewBox="0 0 32 32" fill="none" xmlns="http://www.w3.org/2000/svg">
+                <path d="M17.4695 15.9773L25.7595 7.70951C25.9234 7.51872 26.009 7.2733 25.9993 7.0223C25.9895 6.77129 25.8852 6.53319 25.7071 6.35558C25.529 6.17796 25.2903 6.0739 25.0386 6.06421C24.7869 6.05451 24.5408 6.13989 24.3495 6.30328L16.0595 14.5711L7.76954 6.29331C7.58124 6.10551 7.32585 6 7.05954 6C6.79324 6 6.53785 6.10551 6.34954 6.29331C6.16124 6.48111 6.05545 6.73582 6.05545 7.00141C6.05545 7.267 6.16124 7.52171 6.34954 7.70951L14.6495 15.9773L6.34954 24.2452C6.24486 24.3346 6.15984 24.4446 6.09982 24.5683C6.03979 24.6921 6.00606 24.8268 6.00075 24.9642C5.99543 25.1015 6.01863 25.2385 6.06891 25.3665C6.11918 25.4945 6.19544 25.6107 6.29289 25.7079C6.39035 25.8051 6.5069 25.8811 6.63522 25.9313C6.76355 25.9814 6.90088 26.0046 7.0386 25.9993C7.17632 25.9939 7.31145 25.9603 7.43551 25.9004C7.55958 25.8406 7.6699 25.7558 7.75954 25.6514L16.0595 17.3836L24.3495 25.6514C24.5408 25.8148 24.7869 25.9002 25.0386 25.8905C25.2903 25.8808 25.529 25.7767 25.7071 25.5991C25.8852 25.4215 25.9895 25.1834 25.9993 24.9324C26.009 24.6814 25.9234 24.436 25.7595 24.2452L17.4695 15.9773Z" fill="white"/>
+                </svg>
+        .mobileMenuWr
+            .mobileMenuBack
+                img(src="assets/mobileMenuBackDecor.png")
+            .mobileMenuContent
+                .mainMenuItems
+                    include mainMenuItems
+
+
+

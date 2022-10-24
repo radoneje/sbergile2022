@@ -1,0 +1,65 @@
+extends layout
+block head
+  <meta property="og:title" content="">
+  <meta property="og:site_name" content="Sbergile Talks">
+  <meta property="og:url" content="">
+  <meta property="og:description" content="Sbergile Talks Pro">
+  <meta property="og:type" content="">
+  <meta property="og:image" content="">
+  link(rel='stylesheet', href='assets/video-js.css')
+block content
+
+  .back
+
+      .decor0.desktop
+        img(src="assets/decor0.png")
+      .decor0.mobile
+            img(src="assets/decor0mobile.svg")
+      .decor1
+          img(src="assets/decor1.png")
+      .decor6
+
+      .decor2
+        img(src="assets/decor2.png")
+      .decor3
+        img(src="assets/decor3.png")
+      .decor4
+          img(src="assets/decor4.png")
+      .decor5
+          img(src="assets/decor5.png")
+  .content
+        .section
+          include elems/mainMenu
+        .section
+          include elems/firstPage
+        .section
+          include elems/player
+        .section
+          include elems/pgm
+        .section
+          include elems/spk
+        .section
+          include elems/footer
+  script(src="assets/video.js")
+  script.
+
+      const showMobileMenu = () => {
+          document.querySelector(".mobileMenu").classList.add("active")
+          document.body.style.overflowY="hidden"
+      };
+      const mainMenuClose = () => {
+          document.querySelector(".mobileMenu").classList.remove("active")
+          document.body.style.overflowY = null
+      };
+      const scrollToElement = (selector) => {
+          var element = document.querySelector(selector);
+          const yOffset = -100;
+          const y = element.getBoundingClientRect().top + window.pageYOffset + yOffset;
+
+          window.scrollTo({top: y, behavior: 'smooth'});
+          mainMenuClose();
+      }
+      (()=>{
+          let player=videojs("#player");
+
+        })();
