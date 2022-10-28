@@ -932,6 +932,7 @@ h2 {
         flex-wrap: wrap;
     }
     .pgmItemContent {
+        margin-right: 32px;
         margin-left: 32px;
         width: calc(100%);
 
