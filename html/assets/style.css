@@ -462,7 +462,7 @@ h2 {
 
 .pgmItemSpeaker {
     display: flex;
-    align-items: flex-start;
+    align-items: center;
     justify-content: left;
     width: 320px;
     box-sizing: border-box;
