@@ -473,7 +473,8 @@ h2 {
 
 }
 
-.pgmItemSpeakerImg {
+.pgmItemSpeakerImg img {
+    border-radius: 50%;
 }
 
 .pgmItemSpeakerName {
@@ -821,6 +822,7 @@ h2 {
 
     .spkPhoto img {
         width: 88px;
+        border-radius: 50%;
     }
 
     .footerRow {
