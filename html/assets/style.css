@@ -525,7 +525,15 @@ h2 {
 .spkPhoto {
 }
 .spkPhotoWr{
-
+    margin: 0 auto;
+    width: 118px;
+    overflow: hidden;
+    height: 118px;
+    border-radius: 50%;
+}
+.spkPhotoWr img{
+    margin-top: -1px;
+    margin-left: -1px;
 }
 .spkFio {
     font-style: normal;
