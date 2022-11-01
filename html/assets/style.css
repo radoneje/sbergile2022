@@ -411,7 +411,7 @@ h2 {
 
 .pgmItemIco {
     margin-left: -17px;
-    background: #021121;
+
     height: 40px;
 }
 
@@ -659,11 +659,7 @@ h2 {
     .tower {
         width: calc(100% - 128px)
     }
-    .pgmItemIco {
 
-       // background: #021423;
-
-    }
 
     .decor {
         top: 625px
