@@ -409,9 +409,9 @@ h2 {
     content: '';
     width: 1px;
 
-    top:0;
-    bottom: 0;
-    left: 0;
+    top: 42px;
+    bottom: 1px;
+    left: -2px;
     border-left: 2px solid rgba(51, 63, 72, 0.8);
 }
 
