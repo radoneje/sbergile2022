@@ -548,7 +548,7 @@ h2 {
     margin: 0 auto;
     width: 118px;
 
-    height: 118px;
+
     border-radius: 50%;
 }
 .spkPhotoWr img{
@@ -840,6 +840,7 @@ h2 {
         font-size: 14px;
         line-height: 18px;
         margin-top: 12px;
+        padding: 0 12px;
     }
 
     .firstPage {
