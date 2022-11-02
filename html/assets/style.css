@@ -286,7 +286,7 @@ h2 {
     font-size: 36px;
     background-image: url(datebg.svg);
     background-repeat: no-repeat;
-    background-size: cover;
+    background-size: contain;
     width: max-content;
     box-sizing: border-box;
 }
