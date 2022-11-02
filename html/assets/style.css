@@ -554,6 +554,7 @@ h2 {
 .spkPhotoWr img{
     margin-top: -1px;
     margin-left: -1px;
+    border-radius: 50%;
 }
 .spkFio {
     font-style: normal;
