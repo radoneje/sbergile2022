@@ -736,6 +736,7 @@ h2 {
         font-size: var(--fs18);
         line-height: 21px;
         padding-bottom: 11px;
+        padding-right: 21px;
     }
 
     .dateText {
