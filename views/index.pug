@@ -7,6 +7,7 @@ block head
   <meta property="og:type" content="">
   <meta property="og:image" content="">
   link(rel='stylesheet', href='assets/video-js.css')
+  link(rel='stylesheet', href='assets/videojs-hls-quality-selector.css')
 block content
 
   .back
@@ -41,6 +42,8 @@ block content
         .section
           include elems/footer
   script(src="assets/video.js")
+  script(src="assets/videojs-contrib-quality-levels.min.js")
+  script(src="assets/videojs-hls-quality-selector.min.js")
   script.
 
       const showMobileMenu = () => {
@@ -61,5 +64,8 @@ block content
       }
       (()=>{
           let player=videojs("#player");
+          player.hlsQualitySelector({
+              displayCurrentQuality: true
+          });
 
         })();
