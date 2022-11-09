@@ -10,10 +10,16 @@ html(lang="ru")
     script.
       try {
         eval("let a=()=>{;;};")
+
       } catch (e) {
         console.log(e)
         document.location.href = "badbrowser.html"
       }
+      let href=document.location.href;
+      if(!href.match(/\/$/) )
+        if(!href.match(/index\.html$/)) {
+          document.location.href = href + "/";
+        }
     block head
     link(rel='stylesheet', href='assets/style.css')
 

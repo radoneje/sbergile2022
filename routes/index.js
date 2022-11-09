@@ -12,6 +12,9 @@ let zip=require("zip-a-folder");
 router.get('/', function(req, res, next) {
   res.render('index', { title: 'Express' });
 });
+router.get('/test', function(req, res, next) {
+  res.render('index', { title: 'Express' });
+});
 router.get('/export', async function(req, res, next) {
   let html=pug.renderFile(path.join( __dirname, "/../views/index.pug"), { title: 'Express' })
 
