@@ -883,7 +883,7 @@ h2 {
 }
 
 @media screen and (max-width: 680px) {
-    body{
+    body, .content{
         max-width: 100vw;
         overflow-x: hidden;
     }
