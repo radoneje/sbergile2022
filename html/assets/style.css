@@ -883,6 +883,10 @@ h2 {
 }
 
 @media screen and (max-width: 680px) {
+    body{
+        max-width: 100vw;
+        overflow-x: hidden;
+    }
     .decor0.mobile{
         left: 42px;
         top: 26px;
