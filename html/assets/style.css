@@ -472,6 +472,7 @@ h2 {
     font-size: 16px;
     line-height: 19px;
     color: rgba(238, 243, 255, 0.7);
+
 }
 
 .pgmItemSpeakers {
@@ -824,6 +825,7 @@ h2 {
     .pgmItem {
         display: flex;
         padding-bottom: 32px;
+        width: calc(100% - 24px);
     }
 
     .spk {
