@@ -983,10 +983,12 @@ h2 {
     .pgmItemTitle{
         font-size: 22px;
         line-height: 24px;
+        max-width: calc(100vw - 90px);
     }
     .pgmItemSubTitle{
         font-size: 14px;
         line-height: 17px;
+        max-width: calc(100vw - 90px);
     }
     .pgmItemSpeakerFio{
         font-size: 16px;
@@ -995,6 +997,7 @@ h2 {
     .pgmItemSpeakerPos {
         font-size: 14px;
         line-height: 18px;
+        max-width: calc(100vw - 146px);
     }
     .spk{
         margin-top: 40px;
